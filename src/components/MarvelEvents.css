@@ -1,0 +1,64 @@
+/* src/components/MarvelEvents.css */
+
+.marvel-events {
+    padding: 20px;
+    text-align: center;
+    background-color: #252121;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.events-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.event-item {
+    flex: 1 1 300px;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid #14471f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: white;
+    color: #000;
+    text-align: center;
+}
+
+.event-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(147, 35, 35, 0.2);
+}
+
+.event-image {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: #e62429;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+}

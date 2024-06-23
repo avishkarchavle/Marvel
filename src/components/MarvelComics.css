@@ -1,0 +1,71 @@
+/* src/components/MarvelComics.css */
+
+.marvel-comics {
+    padding: 20px;
+    text-align: center;
+    background-color: #252121;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.comics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comic-item {
+    flex: 0 1 calc(22% - 20px);
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #14471f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: rgb(248, 244, 244);
+    color: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comic-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(147, 35, 35, 0.2);
+}
+
+.comic-image {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1.section-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: #e62429;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+}
