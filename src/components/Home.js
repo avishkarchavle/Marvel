@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import './Home.css';
 
 const Home = () => {
-
-
     return (
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -34,16 +34,13 @@ const Home = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/creators">Creators</Link>
                             </li>
-
                         </ul>
-
                     </div>
                 </div>
             </nav>
             <div className="content">
                 <h1>Welcome to Marvel Universe</h1>
                 <p id='white'>Explore Marvel characters and comics!</p>
-
                 <div className="additional-images">
                     <img src="https://cdn.marvel.com/content/1x/ironman_hom.jpg" alt="Iron Man" className="additional-image" />
                     <img src="https://cdn.marvel.com/content/1x/thorult01.jpg" alt="Thor" className="additional-image" />
@@ -51,19 +48,19 @@ const Home = () => {
                     <img src="https://cdn.marvel.com/content/1x/msmarvel_houseofm.jpg" alt="Captain Marvel" className="additional-image" />
                     <img src="https://cdn.marvel.com/content/1x/1602_blackwidow442.jpg" alt="Black Widow" className="additional-image" />
                     <img src="https://cdn.marvel.com/content/1x/acotilletta2--hulk_%28house_of_m%29_442.jpg" alt="Hulk" className="additional-image" />
-                    <img src="https://cdn.marvel.com/content/1x/018hcb_com_cut_dsk_01.jpg" alt="Hawkeye " className="additional-image" />
-                    <img src="https://cdn.marvel.com/content/1x/010ant-com-character-imgonleft-desktop.jpg" alt="Ant-Man " className="additional-image" />
-                    <img src="https://cdn.marvel.com/content/1x/311tch_com_crd_01.png" alt="Black Panther " className="additional-image" />
-                    <img src="https://cdn.marvel.com/content/1x/spider_hom.jpg" alt="Spider Man " className="additional-image" />
-                    <img src="https://cdn.marvel.com/content/1x/021slq_com_cut_dsk_01_0.jpg" alt="Star Lord " className="additional-image" />
-                    <img src="https://cdn.marvel.com/content/1x/012scw_com_cut_dsk_02_0.jpg" alt="Scarlet Witch " className="additional-image" />
-                    <img src="https://cdn.marvel.com/content/1x/023rra_ons_crd_04.jpg" alt="Rocket " className="additional-image" />
-                    <img src="https://cdn.marvel.com/content/1x/024grt_ons_cut_dsk_01_1.jpg" alt="Groot " className="additional-image" />
-                    <img src="https://cdn.marvel.com/content/1x/ultra-vision.jpg" alt="Vision " className="additional-image" />
-                    <img src="https://cdn.marvel.com/content/1x/009drs_com_cut_dsk_03.jpg" alt="Doctor Strange " className="additional-image" />
-                    <img src="https://cdn.marvel.com/content/1x/ultwolv.jpg" alt="Wolverine " className="additional-image" />
-                    <img src="https://cdn.marvel.com/content/1x/036dpl_com_crd_01.jpg" alt="Deadpool " className="additional-image" />
-                    <img src="https://cdn.marvel.com/content/1x/017lok_com_cut_dsk_01.jpg" alt="Loki " className="additional-image" />
+                    <img src="https://cdn.marvel.com/content/1x/018hcb_com_cut_dsk_01.jpg" alt="Hawkeye" className="additional-image" />
+                    <img src="https://cdn.marvel.com/content/1x/010ant-com-character-imgonleft-desktop.jpg" alt="Ant-Man" className="additional-image" />
+                    <img src="https://cdn.marvel.com/content/1x/311tch_com_crd_01.png" alt="Black Panther" className="additional-image" />
+                    <img src="https://cdn.marvel.com/content/1x/spider_hom.jpg" alt="Spider Man" className="additional-image" />
+                    <img src="https://cdn.marvel.com/content/1x/021slq_com_cut_dsk_01_0.jpg" alt="Star Lord" className="additional-image" />
+                    <img src="https://cdn.marvel.com/content/1x/012scw_com_cut_dsk_02_0.jpg" alt="Scarlet Witch" className="additional-image" />
+                    <img src="https://cdn.marvel.com/content/1x/023rra_ons_crd_04.jpg" alt="Rocket" className="additional-image" />
+                    <img src="https://cdn.marvel.com/content/1x/024grt_ons_cut_dsk_01_1.jpg" alt="Groot" className="additional-image" />
+                    <img src="https://cdn.marvel.com/content/1x/ultra-vision.jpg" alt="Vision" className="additional-image" />
+                    <img src="https://cdn.marvel.com/content/1x/009drs_com_cut_dsk_03.jpg" alt="Doctor Strange" className="additional-image" />
+                    <img src="https://cdn.marvel.com/content/1x/ultwolv.jpg" alt="Wolverine" className="additional-image" />
+                    <img src="https://cdn.marvel.com/content/1x/036dpl_com_crd_01.jpg" alt="Deadpool" className="additional-image" />
+                    <img src="https://cdn.marvel.com/content/1x/017lok_com_cut_dsk_01.jpg" alt="Loki" className="additional-image" />
                     <img src="https://cdn.marvel.com/content/1x/019tha_com_cut_dsk_02_0.jpg" alt="Thanos" className="additional-image" />
                 </div>
             </div>
